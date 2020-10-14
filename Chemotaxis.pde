@@ -2,7 +2,7 @@ Bacteria [] dots;
 void setup() {
   size(600, 600);
   background(255);
-  frameRate(30);
+  frameRate(60);
   dots = new Bacteria[50];
   for (int i = 0; i < dots.length; i++)
   {
